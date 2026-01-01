@@ -23,7 +23,7 @@ services:
       - docker-mysql
     environment:
       - MYSQL_ROOT_PASSWORD=root
-      - MYSQL_DATABASE=test
+      - MYSQL_DATABASE=userdb
 networks:
   docker-mysql:
   
