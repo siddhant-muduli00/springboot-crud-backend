@@ -27,5 +27,18 @@
   </dependencies>
 	<build>
 		<finalName>spring-boot-mysql</finalName>
+		<build>
+    <plugins>
+        <plugin>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-maven-plugin</artifactId>
+            <version>3.2.1</version>
+            <configuration>
+                <mainClass>com.example.usercrud.UserCrudApplication</mainClass>
+            </configuration>
+        </plugin>
+    </plugins>
+</build>
+
 	</build>
 </project>
