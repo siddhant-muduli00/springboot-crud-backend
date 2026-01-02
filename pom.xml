@@ -27,7 +27,7 @@
   </dependencies>
 	  <packaging>jar</packaging>
 	<build>
-		  <finalName>user-crud-service</finalName>
+		  <finalName>spring-boot-mysql</finalName>
 	  <plugins>
 	    <plugin>
 	      <groupId>org.springframework.boot</groupId>
